@@ -1,6 +1,6 @@
 let inp = document.querySelector("#city");
 let btn = document.querySelector("button");
-let api_key = "bfcba8417acd4e86baa110146251306"; // ✅ Correct key
+let api_key = "CREATE YOUR OWN KEY"; // ✅ Correct key
 
 btn.addEventListener("click", async () => {
     let city = inp.value.trim();
