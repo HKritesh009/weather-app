@@ -9,7 +9,7 @@ btn.addEventListener("click", async () => {
         return;
     }
 
-    let currentWeatherUrl = `http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${encodeURIComponent(city)}&aqi=no`;
+    let currentWeatherUrl = `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${encodeURIComponent(city)}&aqi=no`;
 
     try {
         let response = await fetch(currentWeatherUrl);
